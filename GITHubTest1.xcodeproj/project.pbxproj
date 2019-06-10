@@ -60,8 +60,32 @@
 				18EAF80122AE94860065A6A3 /* Assets.xcassets */,
 				18EAF80322AE94860065A6A3 /* LaunchScreen.storyboard */,
 				18EAF80622AE94860065A6A3 /* Info.plist */,
+				18EAF80C22AE94AD0065A6A3 /* Controllers */,
 			);
 			path = GITHubTest1;
+			sourceTree = "<group>";
+		};
+		18EAF80C22AE94AD0065A6A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18EAF80E22AE94C40065A6A3 /* Flight */,
+				18EAF80D22AE94B50065A6A3 /* Hotel */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18EAF80D22AE94B50065A6A3 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		18EAF80E22AE94C40065A6A3 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GEZQH6J3J2;
 				INFOPLIST_FILE = GITHubTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pt.GITHubTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GEZQH6J3J2;
 				INFOPLIST_FILE = GITHubTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pt.GITHubTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
